@@ -62,7 +62,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: 'Roboto Mono', monospace;
   font-weight: 400;
   margin: 0 55px 0 0;
 }
@@ -234,14 +234,14 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .scrolled .fh5co-nav {
-  background: #00BFFF	;
+  background:#00CED1;
   padding: 10px 0;
   -webkit-box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.15);
 }
 .scrolled .fh5co-nav a {
-  color: #000;
+  color: #94d331;
 }
 .scrolled .fh5co-nav ul li a:hover, .scrolled .fh5co-nav ul li a:focus, .scrolled .fh5co-nav ul li a:active {
   color: #1E90FF	 !important;
@@ -295,7 +295,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(42, 51, 86, 0.9);
+  background: #765483;
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
@@ -497,7 +497,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-cover .display-tc h2 {
   margin: 0;
   padding: 0;
-  color: white;
+  color: #95D431;
 }
 #fh5co-header .display-tc h1,
 #fh5co-counter .display-tc h1,
@@ -576,7 +576,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-bg-section {
-  background: #F0F5F9;
+  background: #fff;
 }
 
 #fh5co-services,
@@ -588,9 +588,14 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-team,
 #fh5co-contact,
 #fh5co-footer {
-  padding: 7em 0;
+  padding: 4em 0;
   clear: both;
+  background-color: #fff;
+  font-family: 'Roboto Mono', monospace;
 }
+
+
+
 @media screen and (max-width: 768px) {
   #fh5co-services,
   #fh5co-started,
@@ -605,8 +610,11 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
+
+/*Impactos*/
+
 #fh5co-testimonial {
-  background: #F0F5F9;
+  background: #00CED1;
 }
 #fh5co-testimonial .testimonial {
   background: #fff;
@@ -678,65 +686,9 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
-#fh5co-blog .fh5co-post {
-  background: #fff;
-  float: left;
-  width: 100%;
-  margin-bottom: 30px;
-  padding: 30px;
-  -webkit-box-shadow: -2px 11px 24px -10px rgba(0, 0, 0, 0.09);
-  -moz-box-shadow: -2px 11px 24px -10px rgba(0, 0, 0, 0.09);
-  box-shadow: -2px 11px 24px -10px rgba(0, 0, 0, 0.09);
-  position: relative;
-  bottom: 0;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-#fh5co-blog .fh5co-post h3 {
-  margin-bottom: 20px;
-}
-#fh5co-blog .fh5co-post h3 a {
-  color: #1E90FF	;
-}
-#fh5co-blog .fh5co-post h3 a:hover {
-  color: #f35f55;
-}
-#fh5co-blog .fh5co-post .fh5co-date {
-  display: block;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  font-size: 12px;
-  color: #cccccc;
-  letter-spacing: .07em;
-}
-#fh5co-blog .fh5co-post p.author {
-  color: #b3b3b3;
-}
-#fh5co-blog .fh5co-post p.author img {
-  width: 50px;
-  margin-right: 10px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-}
-#fh5co-blog .fh5co-post p.author cite {
-  font-style: normal;
-  font-size: 13px;
-}
-#fh5co-blog .fh5co-post p:last-child {
-  margin-bottom: 0;
-}
-#fh5co-blog .fh5co-post:hover, #fh5co-blog .fh5co-post:focus {
-  bottom: 10px;
-}
-@media screen and (max-width: 768px) {
-  #fh5co-blog .fh5co-post:hover, #fh5co-blog .fh5co-post:focus {
-    bottom: 0;
-  }
-}
+/*Fim impactos*/
 
+/*Parceiros*/
 #fh5co-counter {
   background: #fff;
   padding: 7em 0;
@@ -784,6 +736,9 @@ h1, h2, h3, h4, h5, h6, figure {
   text-align: center;
   margin-left: 3px;
 }
+
+/*Fim de Parceiros*/
+
 
 #fh5co-project .fh5co-project {
   margin-bottom: 30px;
@@ -1130,6 +1085,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-heading {
   margin-bottom: 2em;
+
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
@@ -1139,12 +1095,14 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0px;
   line-height: 1.5;
   font-weight: 300;
-  color: #000;
+  color: #1E90FF;
+  text-align: center;
 }
 .fh5co-heading p {
   font-size: 18px;
   line-height: 1.5;
-  color: #828282;
+  color: #95D431;
+  text-align: center;
 }
 .fh5co-heading span {
   display: block;
@@ -1155,11 +1113,13 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #cccccc;
 }
 
+/*Venha fazer Parte*/
+
 #fh5co-started {
-  background: rgba(42, 51, 86, 0.9);
+  background: #00CED1;
 }
 #fh5co-started .fh5co-heading h2 {
-  color: #fff;
+  color: #1E90FF;
   margin-bottom: 20px !important;
   font-weight: 300;
 }
@@ -1217,6 +1177,8 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-started .form-inline .form-group .form-control {
   width: 100%;
 }
+
+/* Fim do -> Venha fazet parte*/
 
 #fh5co-footer .fh5co-footer-links {
   padding: 0;
